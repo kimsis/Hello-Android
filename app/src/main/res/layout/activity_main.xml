@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:background="@drawable/layout_background"            >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/TextLL"                      >
+
+        <ImageView
+            android:id="@+id/Main_Img_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background"
+            tools:ignore="ContentDescription"                   />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"                >
+
+            <TextView
+                android:text="@string/Text1"
+                android:layout_marginTop="48dp"
+                style="@style/style1"                           />
+
+            <TextView
+                android:text="@string/Text2"
+                style="@style/style1"                           />
+
+            <TextView
+                android:text="@string/Text3"
+                style="@style/style1"                           />
+
+            <TextView
+                android:text="@string/Text4"
+                style="@style/style1"                           />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/TextLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"                       >
+
+        <TextView
+            android:id="@+id/U_TextView"
+            style="@style/style2"
+            android:text="@string/Udacity"                             />
+
+        <TextView
+            android:id="@+id/Mountain_TextView"
+            style="@style/style2"
+            android:text="@string/Address" />
+
+        <TextView
+            android:id="@+id/Number_TextView"
+            style="@style/style2"
+            android:text="@string/Number"                         />
+
+        <TextView
+            android:id="@+id/Site_TextView"
+            style="@style/style2"
+            android:text="@string/Site"                      />
+
+    </LinearLayout>
+
+</RelativeLayout>
