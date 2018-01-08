@@ -18,17 +18,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/background"
+            android:alpha=".3"
             tools:ignore="ContentDescription"                   />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="48dp"
-            android:layout_marginBottom="32dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             android:orientation="vertical"
             android:gravity="center_horizontal"
             android:layout_alignParentRight="true"
